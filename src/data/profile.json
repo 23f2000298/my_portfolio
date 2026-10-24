@@ -1,0 +1,18 @@
+{
+  "name": "Joydev Mandal",
+  "headline": "Aspiring Data Scientist | Machine Learning Enthusiast",
+  "intro": "I am a Data Science student at IIT Madras who enjoys working with Python, exploring data and building machine learning models. I like turning messy, real-world data into answers that people can use.",
+  "location": "Assam, India",
+  "nav": [
+    { "id": "home", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "about": [
+    "I am pursuing the BS in Data Science and Applications at IIT Madras and have completed the Diploma in Data Science. Along the way I have worked with Python, SQL and the core data analysis and machine learning libraries.",
+    "I am most interested in using data to solve practical problems: cleaning and exploring datasets, building models, and checking honestly how well they work.",
+    "I am looking for internship and entry-level opportunities as a Data Analyst, Data Scientist or Machine Learning Engineer, where I can learn from a team and contribute from day one."
+  ]
+}

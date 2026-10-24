@@ -1,0 +1,6 @@
+[
+  { "title": "Programming", "items": ["Python", "SQL"] },
+  { "title": "Data Analysis", "items": ["Pandas", "NumPy", "Excel", "Matplotlib", "Seaborn"] },
+  { "title": "Machine Learning", "items": ["Scikit-learn", "Model evaluation", "Feature engineering"] },
+  { "title": "Tools", "items": ["Git", "GitHub", "Jupyter Notebook"] }
+]

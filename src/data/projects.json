@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project title 1",
+    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
+    "tech": ["Python", "Pandas", "Scikit-learn"],
+    "github": "https://github.com/your-username/project-one",
+    "demo": "https://your-demo-link.example.com"
+  },
+  {
+    "title": "Project title 2",
+    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
+    "tech": ["Python", "SQL", "Matplotlib"],
+    "github": "https://github.com/your-username/project-two",
+    "demo": "https://your-demo-link.example.com"
+  },
+  {
+    "title": "Project title 3",
+    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
+    "tech": ["Python", "NumPy", "Seaborn"],
+    "github": "https://github.com/your-username/project-three",
+    "demo": "https://your-demo-link.example.com"
+  }
+]
