@@ -4,6 +4,7 @@ import contact from '../data/contact.json'
 
 const linkedinLabel = contact.linkedin.replace('https://www.', '')
 const githubLabel = contact.github.replace('https://', '')
+const kaggleLabel = contact.kaggle.replace('https://', '')
 </script>
 
 <template>
@@ -25,6 +26,10 @@ const githubLabel = contact.github.replace('https://', '')
       <li>
         <span class="contact__label">GitHub</span>
         <a :href="contact.github" target="_blank" rel="noopener noreferrer">{{ githubLabel }}</a>
+      </li>
+      <li>
+        <span class="contact__label">Kaggle</span>
+        <a :href="contact.kaggle" target="_blank" rel="noopener noreferrer">{{ contact.kaggle }}</a>
       </li>
     </ul>
     <a class="btn btn--primary" :href="`mailto:${contact.email}`">Send an email</a>
