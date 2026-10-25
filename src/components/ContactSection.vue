@@ -2,9 +2,10 @@
 import SectionWrapper from './SectionWrapper.vue'
 import contact from '../data/contact.json'
 
+const gmailLink = `https://mail.google.com/mail/?view=cm&to=${contact.email}`
 const linkedinLabel = contact.linkedin.replace('https://www.', '')
 const githubLabel = contact.github.replace('https://', '')
-const kaggleLabel = contact.kaggle.replace('https://', '')
+const kaggleLabel = contact.kaggle.replace('https://www.', '')
 </script>
 
 <template>
@@ -17,7 +18,7 @@ const kaggleLabel = contact.kaggle.replace('https://', '')
     <ul class="contact">
       <li>
         <span class="contact__label">Email</span>
-        <a :href="`mailto:${contact.email}`">{{ contact.email }}</a>
+        <a :href="gmailLink" target="_blank" rel="noopener noreferrer">{{ contact.email }}</a>
       </li>
       <li>
         <span class="contact__label">LinkedIn</span>
@@ -29,9 +30,9 @@ const kaggleLabel = contact.kaggle.replace('https://', '')
       </li>
       <li>
         <span class="contact__label">Kaggle</span>
-        <a :href="contact.kaggle" target="_blank" rel="noopener noreferrer">{{ contact.kaggle }}</a>
+        <a :href="contact.kaggle" target="_blank" rel="noopener noreferrer">{{ kaggleLabel }}</a>
       </li>
     </ul>
-    <a class="btn btn--primary" :href="`mailto:${contact.email}`">Send an email</a>
+    <a class="btn btn--primary" :href="gmailLink" target="_blank" rel="noopener noreferrer">Send an email</a>
   </SectionWrapper>
 </template>
