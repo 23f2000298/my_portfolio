@@ -12,11 +12,11 @@ defineProps({
       <li v-for="t in project.tech" :key="t">{{ t }}</li>
     </ul>
     <div class="card__actions">
-      <a class="btn btn--small btn--secondary" :href="project.github" target="_blank" rel="noopener noreferrer">
+      <a v-if="project.github" class="btn btn--small btn--secondary" :href="project.github" target="_blank" rel="noopener noreferrer">
         GitHub<span class="visually-hidden"> repository for {{ project.title }}</span>
       </a>
-      <a class="btn btn--small btn--primary" :href="project.demo" target="_blank" rel="noopener noreferrer">
-        Live demo<span class="visually-hidden"> of {{ project.title }}</span>
+      <a v-if="project.demo" class="btn btn--small btn--primary" :href="project.demo" target="_blank" rel="noopener noreferrer">
+        {{ project.demoLabel || 'Live demo' }}<span class="visually-hidden"> for {{ project.title }}</span>
       </a>
     </div>
   </article>

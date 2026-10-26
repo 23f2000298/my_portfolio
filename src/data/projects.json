@@ -1,23 +1,18 @@
 [
   {
-    "title": "Project title 1",
-    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
-    "tech": ["Python", "Pandas", "Scikit-learn"],
-    "github": "https://github.com/your-username/project-one",
-    "demo": "https://your-demo-link.example.com"
+    "title": "Placement Portal App",
+    "description": "A full-stack web app where an institute, companies and students manage campus recruitment in one place. It replaces spreadsheets and emails with role-based dashboards for job posting, applications and placement tracking.",
+    "tech": ["Python", "Flask", "SQL", "Vue.js", "JavaScript", "jQuery", "Bootstrap", "HTML", "CSS", "JSON"],
+    "github": "https://github.com/23f2000298/Mad2_Project_Placement_Portal",
+    "demo": "https://drive.google.com/file/d/1Us8SrKOwMknVqPpDCF384kHsYAPznhN9/view?usp=sharing",
+    "demoLabel": "Demo"
   },
   {
-    "title": "Project title 2",
-    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
-    "tech": ["Python", "SQL", "Matplotlib"],
-    "github": "https://github.com/your-username/project-two",
-    "demo": "https://your-demo-link.example.com"
-  },
-  {
-    "title": "Project title 3",
-    "description": "Describe the problem you worked on, the data you used and what you built. Keep it to two sentences.",
-    "tech": ["Python", "NumPy", "Seaborn"],
-    "github": "https://github.com/your-username/project-three",
-    "demo": "https://your-demo-link.example.com"
+    "title": "Vehicle Parking App",
+    "description": "A web-based multi-user vehicle parking management system. Users can register, log in and book a parking spot by entering their vehicle number, and the fee is calculated from the parking duration. Admins can monitor users, parking slots and revenue using visual graphs.",
+    "tech": ["Python", "Flask", "SQLite", "Bootstrap", "HTML", "CSS", "JSON"],
+    "github": "https://github.com/23f2000298/mad1-project",
+    "demo": "https://drive.google.com/file/d/1C-CW7J943bc52ichO_If14HE1VIe-M8w/view?usp=sharing",
+    "demoLabel": "Demo"
   }
 ]

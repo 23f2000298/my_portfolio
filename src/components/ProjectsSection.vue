@@ -8,7 +8,7 @@ import projects from '../data/projects.json'
   <SectionWrapper
     id="projects"
     title="Projects"
-    intro="These are placeholders. Replace them with your own projects and links in src/data/projects.json."
+    intro="Selected projects I have built during my studies."
     alt
   >
     <div class="grid grid--projects">
