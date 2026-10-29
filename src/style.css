@@ -156,3 +156,9 @@ a:hover { color: var(--blue-dark); }
   * { transition: none !important; }
   .card:hover { transform: none; }
 }
+
+
+/* Projects: link to all work */
+.projects__more { margin-top: 2.5rem; text-align: center; }
+.projects__more p { font-weight: 500; margin-bottom: 1rem; }
+.projects__more-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .85rem; }
