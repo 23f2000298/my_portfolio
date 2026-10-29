@@ -14,5 +14,19 @@
     "github": "https://github.com/23f2000298/mad1-project",
     "demo": "https://drive.google.com/file/d/1C-CW7J943bc52ichO_If14HE1VIe-M8w/view?usp=sharing",
     "demoLabel": "Demo"
+  },
+  {
+  "title": "Smart MCQ Solver Challenge",
+  "description": "A Kaggle competition, the Smart MCQ Solver Challenge: each question has 5 options (A-E) with one correct answer. For each question, predict the top 3 most likely options. Scoring uses MAP@3, which gives full credit if the correct answer is ranked first, partial credit (1/2) if second, and so on.",
+  "tech": ["Python", "Pandas", "Scikit-learn","RAG + Fine-Tuned Flan-T5","Custom Scratch Neural Network","MiniLM Similarity (No Training)"],
+  "github": "https://github.com/23f2000298/DL-GenAI-Project"
+  },
+    {
+    "title": "Comment Category Prediction",
+    "description": "Predicts the final category assigned to online user comments in a Kaggle classification challenge. Compares Logistic Regression, LightGBM, Random Forest and Linear SVC, with hyperparameter tuning using GridSearchCV, RandomizedSearchCV and HalvingGridSearchCV.",
+    "tech": ["Python", "Scikit-learn", "LightGBM"],
+    "github": "https://github.com/23f2000298/Comment-Category-Prediction-Challenge"
   }
+
+
 ]
