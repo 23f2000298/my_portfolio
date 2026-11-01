@@ -162,3 +162,64 @@ a:hover { color: var(--blue-dark); }
 .projects__more { margin-top: 2.5rem; text-align: center; }
 .projects__more p { font-weight: 500; margin-bottom: 1rem; }
 .projects__more-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .85rem; }
+
+/* Hero with photo */
+.hero__layout { display: flex; align-items: center; justify-content: space-between; gap: 3rem; }
+.hero__photo {
+  width: 240px; height: 300px; flex-shrink: 0;
+  object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border);
+}
+
+@media (max-width: 760px) {
+  .hero__layout { flex-direction: column-reverse; align-items: flex-start; gap: 1.5rem; }
+  .hero__photo { width: 160px; height: 200px; }
+}
+
+
+
+/* Obsidian Black theme */
+:root {
+  color-scheme: dark;
+  --bg: #000000;
+  --bg-soft: #0a0a0c;
+  --navy: #f5f5f7;          /* main text */
+  --text-muted: #a1a1a6;
+  --blue: #2997ff;          /* accent */
+  --blue-dark: #64b5ff;     /* hover */
+  --blue-tint: rgba(41, 151, 255, 0.14);
+  --border: #2a2a2d;
+}
+
+html { background: #000; }
+body { background: transparent; }
+
+/* Very soft glows so the black is not flat */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(700px circle at 8% 0%,   rgba(41, 151, 255, 0.12), transparent 60%),
+    radial-gradient(600px circle at 100% 50%, rgba(130, 100, 255, 0.08), transparent 60%);
+}
+
+/* Frosted navigation bar */
+.navbar {
+  background: rgba(0, 0, 0, 0.72);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.section--alt { background: rgba(255, 255, 255, 0.025); }
+.card { background: #111113; }
+
+/* Buttons: keep white text readable */
+.btn--primary { background: #0071e3; border-color: #0071e3; color: #fff; }
+.btn--primary:hover { background: #0a84ff; border-color: #0a84ff; color: #fff; }
+
+.skip-link { background: #f5f5f7; color: #000; }
+.skip-link:focus { color: #000; }
+
+::selection { background: rgba(41, 151, 255, 0.35); color: #fff; }
