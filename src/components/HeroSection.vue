@@ -15,13 +15,7 @@ import profile from '../data/profile.json'
           <a class="btn btn--secondary" href="/Joydev_Mandal_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
         </div>
       </div>
-      <img
-        class="hero__photo"
-        src="/photo.jpg"
-        alt="Portrait of Joydev Mandal"
-        width="240"
-        height="300"
-      />
+      <img class="hero__photo" src="/photo.jpg" alt="Portrait of Joydev Mandal" width="200" height="250" />
     </div>
   </section>
 </template>

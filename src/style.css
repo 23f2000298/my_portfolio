@@ -166,13 +166,13 @@ a:hover { color: var(--blue-dark); }
 /* Hero with photo */
 .hero__layout { display: flex; align-items: center; justify-content: space-between; gap: 3rem; }
 .hero__photo {
-  width: 240px; height: 300px; flex-shrink: 0;
+  width: 200px; height: 250px; flex-shrink: 0;
   object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border);
 }
 
 @media (max-width: 760px) {
   .hero__layout { flex-direction: column-reverse; align-items: flex-start; gap: 1.5rem; }
-  .hero__photo { width: 160px; height: 200px; }
+  .hero__photo { width: 130px; height: 163px; }
 }
 
 
